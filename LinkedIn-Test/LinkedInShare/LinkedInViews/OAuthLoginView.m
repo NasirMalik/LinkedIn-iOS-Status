@@ -257,6 +257,10 @@
 //  This api consumer data could move to a provider object
 //  to allow easy switching between LinkedIn, Twitter, etc.
 //
+- (IBAction)closeButtonPressed:(id)sender {
+    [_parentVC removeLoginView];
+}
+
 - (void)initLinkedInApi
 {
     apikey = @"7597tb2bxf1wpq";

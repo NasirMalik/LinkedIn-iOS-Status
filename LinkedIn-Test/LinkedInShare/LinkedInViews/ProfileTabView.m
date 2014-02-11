@@ -98,8 +98,17 @@
     // We're going to do these calls serially just for easy code reading.
     // They can be done asynchronously
     // Get the profile, then the network updates
-    [self profileApiCall];
-	
+    if (consumer&&accessToken) {
+        [self profileApiCall];
+    }
+    else
+    {
+        UIAlertView* alert=[[UIAlertView alloc] initWithTitle:@"Error" message:@"Something went wrong while loggin in. Please try again" delegate:self cancelButtonTitle:nil otherButtonTitles:@"Dismiss", nil];
+        [alert show];
+        alert.tag=2;
+        [alert release];
+    }
+    
 }
 
 - (void)profileApiCall
@@ -355,6 +364,12 @@
     
     consumer=nil;
     accessToken=nil;
+    
+    statusTextView.layer.cornerRadius=3.0;
+    statusTextView.clipsToBounds=YES;
+    statusTextView.layer.shadowColor=[UIColor blueColor].CGColor;
+    statusTextView.layer.shadowOffset=CGSizeMake(1, 1);
+    
     
     UIImage *buttonImage = [[UIImage imageNamed:@"whiteButton.png"]
                             resizableImageWithCapInsets:UIEdgeInsetsMake(18, 18, 18, 18)];

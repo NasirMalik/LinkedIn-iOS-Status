@@ -37,6 +37,7 @@
     NSString *userLoginURLString;
     NSURL *userLoginURL;
     NSString *linkedInCallbackURL;
+    IBOutlet UIButton *closeButton;
 }
 
 @property(nonatomic, assign) ProfileTabView* parentVC;
@@ -45,6 +46,7 @@
 @property(nonatomic, retain) NSDictionary *profile;
 @property(nonatomic, retain) OAConsumer *consumer;
 
+- (IBAction)closeButtonPressed:(id)sender;
 - (void)initLinkedInApi;
 - (void)requestTokenFromProvider;
 - (void)allowUserToLogin;

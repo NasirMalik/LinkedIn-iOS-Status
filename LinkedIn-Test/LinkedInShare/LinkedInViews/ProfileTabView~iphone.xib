@@ -50,16 +50,16 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="24">
-                    <rect key="frame" x="33" y="142" width="255" height="29"/>
+                    <rect key="frame" x="33" y="146" width="255" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="GujaratiSangamMN-Bold" family="Gujarati Sangam MN" pointSize="18"/>
+                    <fontDescription key="fontDescription" name="GujaratiSangamMN-Bold" family="Gujarati Sangam MN" pointSize="21"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="27">
-                    <rect key="frame" x="33" y="175" width="255" height="29"/>
+                    <rect key="frame" x="33" y="169" width="255" height="29"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="15"/>
+                    <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="11"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -71,7 +71,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Update your status:" lineBreakMode="tailTruncation" minimumFontSize="10" id="42">
-                    <rect key="frame" x="33" y="227" width="145" height="21"/>
+                    <rect key="frame" x="33" y="213" width="145" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -117,7 +117,7 @@
                     <color key="color" red="0.48627450979999998" green="0.36862745099999999" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                 </activityIndicatorView>
                 <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="0QP-LW-j1f">
-                    <rect key="frame" x="33" y="256" width="255" height="103"/>
+                    <rect key="frame" x="33" y="237" width="255" height="113"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <string key="text">Hey! #ShouldIQuit suggest me to CONTINUE my current job. What you suggest? Have you tried #ShouldIQuit?
@@ -129,7 +129,7 @@ http://goo.gl/JB3oX0</string>
                     </connections>
                 </textView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LHm-8y-I7R">
-                    <rect key="frame" x="276" y="-3" width="51" height="51"/>
+                    <rect key="frame" x="277" y="-4" width="51" height="51"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Close.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
