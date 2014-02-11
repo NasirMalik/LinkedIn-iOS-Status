@@ -30,7 +30,7 @@
                     <color key="color" red="0.48627450979999998" green="0.36862745099999999" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                 </activityIndicatorView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="d8p-LT-VTH">
-                    <rect key="frame" x="275" y="-3" width="51" height="51"/>
+                    <rect key="frame" x="275" y="-1" width="51" height="51"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Close.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>

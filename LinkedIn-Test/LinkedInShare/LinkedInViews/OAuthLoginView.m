@@ -287,8 +287,8 @@
 {
     [super viewDidLoad];
     // webView.scrollView.contentSize=CGSizeMake(webView.frame.size.width, webView.frame.size.height);
-    webView.scrollView.contentInset=UIEdgeInsetsMake(10, webView.scrollView.contentInset.left, webView.scrollView.contentInset.bottom,  webView.scrollView.contentInset.right);
-    webView.scrollView.contentMode=UIViewContentModeCenter;
+    // webView.scrollView.contentInset=UIEdgeInsetsMake(10, webView.scrollView.contentInset.left, webView.scrollView.contentInset.bottom,  webView.scrollView.contentInset.right);
+    // webView.scrollView.contentMode=UIViewContentModeCenter;
     [self initLinkedInApi];
     //[addressBar setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
 }

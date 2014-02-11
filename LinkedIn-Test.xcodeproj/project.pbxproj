@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		500A1ED6189C030700ACB4B7 /* OAuthLoginView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 500A1ED4189C030700ACB4B7 /* OAuthLoginView~iphone.xib */; };
-		500A1ED7189C030700ACB4B7 /* OAuthLoginView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 500A1ED5189C030700ACB4B7 /* OAuthLoginView~ipad.xib */; };
-		500A1EDA189C03CF00ACB4B7 /* ProfileTabView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 500A1ED8189C03CF00ACB4B7 /* ProfileTabView~ipad.xib */; };
 		500A1EDB189C03CF00ACB4B7 /* ProfileTabView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 500A1ED9189C03CF00ACB4B7 /* ProfileTabView~iphone.xib */; };
+		5020EDE218AA8E01006210AE /* ProfileTabView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5020EDE018AA8E01006210AE /* ProfileTabView~ipad.xib */; };
+		5020EDE318AA8E01006210AE /* OAuthLoginView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5020EDE118AA8E01006210AE /* OAuthLoginView~ipad.xib */; };
 		503201D718A7502000E6277E /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 503201BA18A7502000E6277E /* blackButton.png */; };
 		503201D818A7502000E6277E /* blackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 503201BB18A7502000E6277E /* blackButton@2x.png */; };
 		503201D918A7502000E6277E /* blackButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 503201BC18A7502000E6277E /* blackButtonHighlight.png */; };
@@ -98,9 +98,9 @@
 
 /* Begin PBXFileReference section */
 		500A1ED4189C030700ACB4B7 /* OAuthLoginView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "OAuthLoginView~iphone.xib"; sourceTree = "<group>"; };
-		500A1ED5189C030700ACB4B7 /* OAuthLoginView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "OAuthLoginView~ipad.xib"; sourceTree = "<group>"; };
-		500A1ED8189C03CF00ACB4B7 /* ProfileTabView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ProfileTabView~ipad.xib"; sourceTree = "<group>"; };
 		500A1ED9189C03CF00ACB4B7 /* ProfileTabView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ProfileTabView~iphone.xib"; sourceTree = "<group>"; };
+		5020EDE018AA8E01006210AE /* ProfileTabView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ProfileTabView~ipad.xib"; sourceTree = "<group>"; };
+		5020EDE118AA8E01006210AE /* OAuthLoginView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "OAuthLoginView~ipad.xib"; sourceTree = "<group>"; };
 		503201BA18A7502000E6277E /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
 		503201BB18A7502000E6277E /* blackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButton@2x.png"; sourceTree = "<group>"; };
 		503201BC18A7502000E6277E /* blackButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButtonHighlight.png; sourceTree = "<group>"; };
@@ -445,11 +445,11 @@
 				504FF259189B75E4005C8FF0 /* OAuthLoginView.h */,
 				504FF25A189B75E4005C8FF0 /* OAuthLoginView.m */,
 				500A1ED4189C030700ACB4B7 /* OAuthLoginView~iphone.xib */,
-				500A1ED5189C030700ACB4B7 /* OAuthLoginView~ipad.xib */,
+				5020EDE118AA8E01006210AE /* OAuthLoginView~ipad.xib */,
 				504FF25C189B75E4005C8FF0 /* ProfileTabView.h */,
 				504FF25D189B75E4005C8FF0 /* ProfileTabView.m */,
 				500A1ED9189C03CF00ACB4B7 /* ProfileTabView~iphone.xib */,
-				500A1ED8189C03CF00ACB4B7 /* ProfileTabView~ipad.xib */,
+				5020EDE018AA8E01006210AE /* ProfileTabView~ipad.xib */,
 			);
 			path = LinkedInViews;
 			sourceTree = "<group>";
@@ -540,12 +540,12 @@
 				503201E218A7502000E6277E /* greenButtonHighlight@2x.png in Resources */,
 				504FF26C189B800B005C8FF0 /* linked_in_icon@2x.png in Resources */,
 				504FF212189B6BD3005C8FF0 /* ViewController~iphone.xib in Resources */,
-				500A1EDA189C03CF00ACB4B7 /* ProfileTabView~ipad.xib in Resources */,
 				503201EC18A7502000E6277E /* tanButton.png in Resources */,
 				503201ED18A7502000E6277E /* tanButton@2x.png in Resources */,
 				503201F318A7502000E6277E /* whiteButtonHighlight@2x.png in Resources */,
 				5052DB2B18A9E8010047DCA8 /* Close.png in Resources */,
 				503201DE18A7502000E6277E /* blueButtonHighlight@2x.png in Resources */,
+				5020EDE318AA8E01006210AE /* OAuthLoginView~ipad.xib in Resources */,
 				503201E318A7502000E6277E /* greyButton.png in Resources */,
 				503201DB18A7502000E6277E /* blueButton.png in Resources */,
 				503201E618A7502000E6277E /* greyButtonHighlight.png in Resources */,
@@ -554,7 +554,7 @@
 				500A1ED6189C030700ACB4B7 /* OAuthLoginView~iphone.xib in Resources */,
 				503201E818A7502000E6277E /* orangeButton.png in Resources */,
 				503201DD18A7502000E6277E /* blueButtonHighlight.png in Resources */,
-				500A1ED7189C030700ACB4B7 /* OAuthLoginView~ipad.xib in Resources */,
+				5020EDE218AA8E01006210AE /* ProfileTabView~ipad.xib in Resources */,
 				503201DA18A7502000E6277E /* blackButtonHighlight@2x.png in Resources */,
 				503201EA18A7502000E6277E /* orangeButtonHighlight.png in Resources */,
 				5052DB2C18A9E8010047DCA8 /* Close@2x.png in Resources */,
