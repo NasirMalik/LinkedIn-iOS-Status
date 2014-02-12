@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		500A1ED6189C030700ACB4B7 /* OAuthLoginView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 500A1ED4189C030700ACB4B7 /* OAuthLoginView~iphone.xib */; };
 		500A1EDB189C03CF00ACB4B7 /* ProfileTabView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 500A1ED9189C03CF00ACB4B7 /* ProfileTabView~iphone.xib */; };
+		501CDB7C18AB4EE500EF41DE /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 501CDB7B18AB4EE500EF41DE /* background.png */; };
 		5020EDE218AA8E01006210AE /* ProfileTabView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5020EDE018AA8E01006210AE /* ProfileTabView~ipad.xib */; };
 		5020EDE318AA8E01006210AE /* OAuthLoginView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5020EDE118AA8E01006210AE /* OAuthLoginView~ipad.xib */; };
 		503201D718A7502000E6277E /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 503201BA18A7502000E6277E /* blackButton.png */; };
@@ -99,6 +100,7 @@
 /* Begin PBXFileReference section */
 		500A1ED4189C030700ACB4B7 /* OAuthLoginView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "OAuthLoginView~iphone.xib"; sourceTree = "<group>"; };
 		500A1ED9189C03CF00ACB4B7 /* ProfileTabView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ProfileTabView~iphone.xib"; sourceTree = "<group>"; };
+		501CDB7B18AB4EE500EF41DE /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		5020EDE018AA8E01006210AE /* ProfileTabView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ProfileTabView~ipad.xib"; sourceTree = "<group>"; };
 		5020EDE118AA8E01006210AE /* OAuthLoginView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "OAuthLoginView~ipad.xib"; sourceTree = "<group>"; };
 		503201BA18A7502000E6277E /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
@@ -428,6 +430,7 @@
 		504FF257189B75AF005C8FF0 /* LinkedInAssets */ = {
 			isa = PBXGroup;
 			children = (
+				501CDB7B18AB4EE500EF41DE /* background.png */,
 				503201B918A7502000E6277E /* buttons */,
 				504FF269189B800B005C8FF0 /* linked_in_icon.png */,
 				504FF26A189B800B005C8FF0 /* linked_in_icon@2x.png */,
@@ -555,6 +558,7 @@
 				503201E818A7502000E6277E /* orangeButton.png in Resources */,
 				503201DD18A7502000E6277E /* blueButtonHighlight.png in Resources */,
 				5020EDE218AA8E01006210AE /* ProfileTabView~ipad.xib in Resources */,
+				501CDB7C18AB4EE500EF41DE /* background.png in Resources */,
 				503201DA18A7502000E6277E /* blackButtonHighlight@2x.png in Resources */,
 				503201EA18A7502000E6277E /* orangeButtonHighlight.png in Resources */,
 				5052DB2C18A9E8010047DCA8 /* Close@2x.png in Resources */,

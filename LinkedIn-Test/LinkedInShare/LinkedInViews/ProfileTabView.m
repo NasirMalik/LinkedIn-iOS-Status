@@ -47,8 +47,7 @@
         
         oAuthLoginView.parentVC=self;
         oAuthLoginView.view.autoresizesSubviews=YES;
-        oAuthLoginView.view.autoresizingMask=UIViewAutoresizingNone;
-        oAuthLoginView.view.frame=CGRectMake(0, 0, oAuthLoginView.view.frame.size.width, oAuthLoginView.view.frame.size.height);
+         oAuthLoginView.view.frame=CGRectMake(0, 0, oAuthLoginView.view.frame.size.width, oAuthLoginView.view.frame.size.height);
         // register to be told when the login is finished
         [self.view addSubview:oAuthLoginView.view];
         
@@ -361,6 +360,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background1.png"]];
     
     consumer=nil;
     accessToken=nil;

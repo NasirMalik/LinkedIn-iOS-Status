@@ -25,7 +25,7 @@
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="0.52007592970000005" green="1" blue="0.1146877738" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>
     </objects>

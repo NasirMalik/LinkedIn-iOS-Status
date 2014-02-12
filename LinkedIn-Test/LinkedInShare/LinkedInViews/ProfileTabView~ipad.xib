@@ -28,6 +28,10 @@
             <rect key="frame" x="0.0" y="0.0" width="800" height="490"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="Lnc-cm-07V">
+                    <rect key="frame" x="0.0" y="0.0" width="800" height="490"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="linked_in.png" id="351-qq-MQv">
                     <rect key="frame" x="325" y="-28" width="150" height="150"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -139,12 +143,13 @@ http://goo.gl/JB3oX0</string>
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="0.85882352939999995" green="0.68627450980000004" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>
     </objects>
     <resources>
         <image name="Close.png" width="51" height="51"/>
+        <image name="background.png" width="1366" height="768"/>
         <image name="linked_in.png" width="150" height="150"/>
         <image name="linked_in_icon.png" width="150" height="150"/>
     </resources>
