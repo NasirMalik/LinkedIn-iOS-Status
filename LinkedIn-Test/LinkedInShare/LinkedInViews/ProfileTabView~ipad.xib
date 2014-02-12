@@ -133,7 +133,7 @@ http://goo.gl/JB3oX0</string>
                     </connections>
                 </textView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LHm-8y-I7R">
-                    <rect key="frame" x="755" y="13" width="51" height="51"/>
+                    <rect key="frame" x="752" y="9" width="51" height="51"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Close.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>

@@ -1,6 +1,5 @@
 ----------------------------------------------------------
 iPhone OAuth Starter Kit
-
 Supported providers: LinkedIn (OAuth 1.0a)
 
 Originally written by
@@ -10,6 +9,11 @@ http://whitneyland.com
 Updated to add POST example and added to GitHub by:
 Kirsten Jones
 http://www.princesspolymath.com
+
+Updated to app UI, Login/logout by
+Nasir Mahmood
+http://www.shinnxstudios.com
+nasir.shinnx@gmail.com
 ----------------------------------------------------------
 
 
@@ -18,14 +22,11 @@ WHAT YOU NEED TO BUILD AND RUN THIS PROJECT:
 1) XCode 4.01 or higher
 2) An Api key and Secret key  (you can get this at http://developer.linkedin.com)
 3) Open the file OAuthLoginView.m
-4) Find the method initLinkedInApi, add your api and secret keys here.
+4) Find the method initLinkedInApi, add your api and secret keys here. Search API_KEY_HERE
+SECRET_KEY_HERE and add your keys
 5) Build and Run
 
 
-
-If you have feedback it's welcome.
-You can contact me via whitneyland.com (it may redirect to lee.hdgreetings.com).
-I can also be contacted via the public LinkedIn web site (Lee Whitney).
 
 Have fun.
 
