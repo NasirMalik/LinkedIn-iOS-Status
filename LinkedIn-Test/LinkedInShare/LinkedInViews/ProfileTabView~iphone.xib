@@ -78,7 +78,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PCb-Ui-AFh">
-                    <rect key="frame" x="78" y="382" width="195" height="37"/>
+                    <rect key="frame" x="78" y="376" width="195" height="37"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                     <size key="titleShadowOffset" width="0.0" height="1"/>
@@ -91,11 +91,11 @@
                     </connections>
                 </button>
                 <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="linked_in_icon.png" id="oND-Do-0Gu">
-                    <rect key="frame" x="47" y="373" width="55" height="55"/>
+                    <rect key="frame" x="47" y="367" width="55" height="55"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2nI-9e-IBG">
-                    <rect key="frame" x="78" y="433" width="195" height="37"/>
+                    <rect key="frame" x="78" y="427" width="195" height="37"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                     <size key="titleShadowOffset" width="0.0" height="1"/>
@@ -108,7 +108,7 @@
                     </connections>
                 </button>
                 <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="linked_in_icon.png" id="xMl-mA-mkK">
-                    <rect key="frame" x="47" y="424" width="55" height="55"/>
+                    <rect key="frame" x="47" y="418" width="55" height="55"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" id="Vuq-Hf-ttS">

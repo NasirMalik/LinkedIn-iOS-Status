@@ -35,8 +35,10 @@
     
     profileTabView=[[ProfileTabView alloc] init];
     profileTabView.parentVC=self;
-    profileTabView.view.frame=CGRectMake(0, 0, profileTabView.view.frame.size.width, profileTabView.view.frame.size.height);
-    profileTabView.view.center=self.view.center;
+    profileTabView.view.frame=CGRectMake(0, 00, profileTabView.view.frame.size.width, profileTabView.view.frame.size.height);
+    //place device check here
+    
+    //profileTabView.view.center=self.view.center;
     [self.view addSubview:profileTabView.view];
 }
 

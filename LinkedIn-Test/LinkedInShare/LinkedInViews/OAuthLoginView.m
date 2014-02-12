@@ -174,6 +174,9 @@
 - (void)webViewDidFinishLoad:(UIWebView *)webView1
 {
     [activityIndicator stopAnimating];
+    NSLog(@"Webview frame After %@", NSStringFromCGRect(webView.frame));
+     NSLog(@"Webview contentsize After %@", NSStringFromCGSize(webView.scrollView.contentSize));
+
 }
 
 //
@@ -286,11 +289,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // webView.scrollView.contentSize=CGSizeMake(webView.frame.size.width, webView.frame.size.height);
-    // webView.scrollView.contentInset=UIEdgeInsetsMake(10, webView.scrollView.contentInset.left, webView.scrollView.contentInset.bottom,  webView.scrollView.contentInset.right);
-    // webView.scrollView.contentMode=UIViewContentModeCenter;
+    NSLog(@"Webview frame before %@", NSStringFromCGRect(webView.frame));
+    NSLog(@"Webview contentsize before %@", NSStringFromCGSize(webView.scrollView.contentSize));
     [self initLinkedInApi];
-    //[addressBar setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
 }
 
 - (void)viewDidAppear:(BOOL)animated

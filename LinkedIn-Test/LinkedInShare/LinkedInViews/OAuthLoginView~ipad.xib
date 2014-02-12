@@ -14,11 +14,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="1">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <rect key="frame" x="0.0" y="0.0" width="800" height="480"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
             <subviews>
-                <webView contentMode="scaleToFill" id="7">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="720"/>
+                <webView contentMode="center" scalesPageToFit="YES" id="7">
+                    <rect key="frame" x="0.0" y="0.0" width="800" height="480"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
@@ -26,11 +26,11 @@
                     </connections>
                 </webView>
                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="whiteLarge" id="11">
-                    <rect key="frame" x="143" y="220" width="37" height="37"/>
+                    <rect key="frame" x="382" y="221" width="37" height="37"/>
                     <color key="color" red="0.48627450979999998" green="0.36862745099999999" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                 </activityIndicatorView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="d8p-LT-VTH">
-                    <rect key="frame" x="275" y="-3" width="51" height="51"/>
+                    <rect key="frame" x="758" y="0.0" width="51" height="51"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Close.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
